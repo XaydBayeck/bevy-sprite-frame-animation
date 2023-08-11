@@ -12,4 +12,6 @@ debug = ["bevy_editor_pls"]
 [dependencies]
 bevy = { version = "0.11", features = [] }
 bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls", optional = true }
+ron = "0.8.0"
+serde = { version = "1.0.183", features = ["derive"] }
 
